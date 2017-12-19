@@ -149,7 +149,7 @@ ComicDefaults().set(10, forKey: .comicID) // same as: UserDefaults.set(10, forKe
 print(BookDefaults().integer(forKey: .bookID)!) // -> 5
 ```
 
-#### :o: Set differernt rawValues explicitly
+#### :o: Set differerent rawValues explicitly
 ```swift
 struct BookDefaults: SafeDefaults {
     enum Keys: String, DefaultsKey {
