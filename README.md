@@ -1,6 +1,8 @@
 # SafeDefaultsKit
 ![iOS 10.0+](https://img.shields.io/badge/platform-iOS%2010%2B-blue.svg?style=flat)
 ![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)
+![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SnapKit.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Pure-Swift library for safe access to UserDefaults
 - [Requirements](#requirements)
@@ -18,6 +20,15 @@ Pure-Swift library for safe access to UserDefaults
 
 
 ## Installation
+### CocoaPods
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+To integrate SafeDefaultsKit into your Xcode project using CocoaPods, add the following line to your `Podfile` and run `pod install`.
+
+```ruby
+pod 'SafeDefaultsKit', git: 'https://github.com/jrsaruo/SafeDefaultsKit.git'
+```
+
 ### Carthage
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
 
