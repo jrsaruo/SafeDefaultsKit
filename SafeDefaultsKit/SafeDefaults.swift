@@ -79,4 +79,29 @@ public extension SafeDefaults {
         return UserDefaults.standard.url(forKey: key.uniqueValue)
     }
     
+    // MARK: - set -
+    public func set(_ url: URL?, forKey key: Self.Keys) {
+        UserDefaults.standard.set(url, forKey: key.uniqueValue)
+    }
+    
+    public func set(_ value: Any?, forKey key: Self.Keys) {
+        UserDefaults.standard.set(value, forKey: key.uniqueValue)
+    }
+    
+    public func set(_ value: Bool, forKey key: Self.Keys) {
+        UserDefaults.standard.set(value, forKey: key.uniqueValue)
+    }
+    
+    public func set(_ value: Double, forKey key: Self.Keys) {
+        UserDefaults.standard.set(value, forKey: key.uniqueValue)
+    }
+    
+    public func set(_ value: Float, forKey key: Self.Keys) {
+        UserDefaults.standard.set(value, forKey: key.uniqueValue)
+    }
+    
+    public func set(_ value: Int, forKey key: Self.Keys) {
+        UserDefaults.standard.set(value, forKey: key.uniqueValue)
+    }
+    
 }
