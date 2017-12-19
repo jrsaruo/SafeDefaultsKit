@@ -6,6 +6,7 @@ Pure-Swift library for safe access to UserDefaults
 - [Requirements](#requirements)
 - [Features](#features)
 - [Usage](#usage)
+- [Caution](#caution)
 - [License](#license)
 
 
