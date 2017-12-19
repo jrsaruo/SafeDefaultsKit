@@ -29,3 +29,54 @@ public protocol SafeDefaults {
     /// Key set for SafeDefaults.
     associatedtype Keys: DefaultsKey
 }
+
+public extension SafeDefaults {
+    
+    // MARK: - get -
+    public func array(forKey key: Self.Keys) -> [Any]? {
+        return UserDefaults.standard.array(forKey: key.uniqueValue)
+    }
+    
+    public func bool(forKey key: Self.Keys) -> Bool {
+        return UserDefaults.standard.bool(forKey: key.uniqueValue)
+    }
+    
+    public func data(forKey key: Self.Keys) -> Data? {
+        return UserDefaults.standard.data(forKey: key.uniqueValue)
+    }
+    
+    public func double(forKey key: Self.Keys) -> Double? {
+        let defaults = UserDefaults.standard
+        guard defaults.object(forKey: key.uniqueValue) != nil else { return nil }
+        return defaults.double(forKey: key.uniqueValue)
+    }
+    
+    public func float(forKey key: Self.Keys) -> Float? {
+        let defaults = UserDefaults.standard
+        guard defaults.object(forKey: key.uniqueValue) != nil else { return nil }
+        return defaults.float(forKey: key.uniqueValue)
+    }
+    
+    public func integer(forKey key: Self.Keys) -> Int? {
+        let defaults = UserDefaults.standard
+        guard defaults.object(forKey: key.uniqueValue) != nil else { return nil }
+        return defaults.integer(forKey: key.uniqueValue)
+    }
+    
+    public func object(forKey key: Self.Keys) -> Any? {
+        return UserDefaults.standard.object(forKey: key.uniqueValue)
+    }
+    
+    public func string(forKey key: Self.Keys) -> String? {
+        return UserDefaults.standard.string(forKey: key.uniqueValue)
+    }
+    
+    public func stringArray(forKey key: Self.Keys) -> [String]? {
+        return UserDefaults.standard.stringArray(forKey: key.uniqueValue)
+    }
+    
+    public func url(forKey key: Self.Keys) -> URL? {
+        return UserDefaults.standard.url(forKey: key.uniqueValue)
+    }
+    
+}
