@@ -6,7 +6,7 @@ Pure-Swift library for safe access to UserDefaults
 - [Requirements](#requirements)
 - [Features](#features)
 - [Usage](#usage)
-- [Caution](#:x:-caution)
+- [Caution](#caution)
 - [License](#license)
 
 
@@ -97,6 +97,7 @@ SampleDefaults().set("Tom", forKey: .userName)
 ```
 
 
+<a name="caution"></a>
 ## :warning: Caution
 ### Difference from UserDefaults
 getter methods for double, float, integer return **optional** value. If the specified key doesn‘t exist, these methods return `nil`.
