@@ -84,6 +84,11 @@ class ViewController: UIViewController {
         
         self.title = "SafeDefaults Demo"
         
+        // set delegates
+        self.firstnameTextField.delegate = self
+        self.lastnameTextField.delegate = self
+        self.ageTextField.delegate = self
+        
         loadDefaults(animated: false)
         setViews()
         addTargets()
@@ -176,6 +181,16 @@ class ViewController: UIViewController {
                                       preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         present(alert, animated: true)
+    }
+    
+}
+
+// MARK: - UITextFieldDelegate -
+extension ViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
     }
     
 }
