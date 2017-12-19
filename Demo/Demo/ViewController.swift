@@ -140,6 +140,8 @@ class ViewController: UIViewController {
     }
     
     private func addTargets() {
+        self.mainColorSelector.addTarget(self, action: #selector(self.mainColorDidChange), for: .valueChanged)
+        self.useCloudSwitch.addTarget(self, action: #selector(self.switchValueDidChange), for: .valueChanged)
         self.saveButton.addTarget(self, action: #selector(self.saveButtonClicked), for: .touchUpInside)
         self.removeAllButton.addTarget(self, action: #selector(self.removeAllButtonClicked), for: .touchUpInside)
     }
@@ -181,6 +183,14 @@ class ViewController: UIViewController {
                                       preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         present(alert, animated: true)
+    }
+    
+    @objc private func mainColorDidChange(sender: UISegmentedControl) {
+        self.view.endEditing(true)
+    }
+    
+    @objc private func switchValueDidChange(sender: UISwitch) {
+        self.view.endEditing(true)
     }
     
 }
