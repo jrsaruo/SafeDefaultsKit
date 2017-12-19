@@ -104,4 +104,9 @@ public extension SafeDefaults {
         UserDefaults.standard.set(value, forKey: key.uniqueValue)
     }
     
+    // MARK: - remove -
+    public func removeObject(forKey key: Self.Keys) {
+        UserDefaults.standard.removeObject(forKey: key.uniqueValue)
+    }
+    
 }
