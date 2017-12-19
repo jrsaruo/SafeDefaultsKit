@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5AB09F7C1FE942B000465504 /* SafeDefaultsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB09F721FE942AF00465504 /* SafeDefaultsKit.framework */; };
-		5AB09F811FE942B000465504 /* SafeDefaultsKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB09F801FE942B000465504 /* SafeDefaultsKitTests.swift */; };
+		5AB09F811FE942B000465504 /* SafeDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB09F801FE942B000465504 /* SafeDefaultsTests.swift */; };
 		5AB09F831FE942B000465504 /* SafeDefaultsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB09F751FE942AF00465504 /* SafeDefaultsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AB09FCA1FE9442F00465504 /* SafeDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB09FC91FE9442F00465504 /* SafeDefaults.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 		5AB09F751FE942AF00465504 /* SafeDefaultsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeDefaultsKit.h; sourceTree = "<group>"; };
 		5AB09F761FE942AF00465504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AB09F7B1FE942B000465504 /* SafeDefaultsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDefaultsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AB09F801FE942B000465504 /* SafeDefaultsKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDefaultsKitTests.swift; sourceTree = "<group>"; };
+		5AB09F801FE942B000465504 /* SafeDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDefaultsTests.swift; sourceTree = "<group>"; };
 		5AB09F821FE942B000465504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AB09FC91FE9442F00465504 /* SafeDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +83,7 @@
 		5AB09F7F1FE942B000465504 /* SafeDefaultsKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				5AB09F801FE942B000465504 /* SafeDefaultsKitTests.swift */,
+				5AB09F801FE942B000465504 /* SafeDefaultsTests.swift */,
 				5AB09F821FE942B000465504 /* Info.plist */,
 			);
 			path = SafeDefaultsKitTests;
@@ -207,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB09F811FE942B000465504 /* SafeDefaultsKitTests.swift in Sources */,
+				5AB09F811FE942B000465504 /* SafeDefaultsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
