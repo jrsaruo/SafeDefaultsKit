@@ -1,7 +1,7 @@
 # SafeDefaultsKit
 ![iOS 10.0+](https://img.shields.io/badge/platform-iOS%2010%2B-blue.svg?style=flat)
 ![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)
-![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SnapKit.svg)
+![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SafeDefaultsKit.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Pure-Swift library for safe access to UserDefaults
