@@ -4,6 +4,7 @@
 
 Pure-Swift library for safe access to UserDefaults
 - [Requirements](#requirements)
+- [Installation](#installation)
 - [Features](#features)
 - [Usage](#usage)
 - [Caution](#caution)
@@ -14,6 +15,26 @@ Pure-Swift library for safe access to UserDefaults
 * Xcode 9
 * Swift 4.0+
 * iOS 10.0+
+
+
+## Installation
+### Carthage
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate SafeDefaultsKit into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "jrsaruo/SafeDefaultsKit"
+```
+
+Run `carthage update` to build the framework and drag the built `SafeDefaultsKit.framework` into your Xcode project.
 
 
 ## Features
