@@ -21,7 +21,7 @@ Pure-Swift library for safe access to UserDefaults
 
 ## Installation
 ### CocoaPods
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects.
 
 To integrate SafeDefaultsKit into your Xcode project using CocoaPods, add the following line to your `Podfile` and run `pod install`.
 
