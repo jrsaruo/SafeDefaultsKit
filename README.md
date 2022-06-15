@@ -1,4 +1,7 @@
 # SafeDefaultsKit
+
+:warning: **This repository is archived.** :warning:
+
 ![iOS 10.0+](https://img.shields.io/badge/platform-iOS%2010%2B-blue.svg?style=flat)
 ![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)
 ![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SafeDefaultsKit.svg)
